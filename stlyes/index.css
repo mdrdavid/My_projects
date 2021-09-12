@@ -1,0 +1,171 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(../office\,bg2.jpeg);
+    background-position: cover;
+    background-repeat: no-repeat
+}
+.body-text{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: rgb(248, 244, 242);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    padding: 25px;
+}
+.body-text p{
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: Tahoma;
+    word-spacing: 3px;
+    float: left;
+    line-height: 1.5;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    overflow: hidden;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%
+}
+.nav-links li{
+    list-style: none;
+}
+.heading{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-transform:uppercase;
+}
+.nav-links li a:hover:not(.active){
+    background-color: lightseagreen;
+}
+.nav-links li a.active{
+    background-color: rgb(156, 216, 213);
+}
+.form-container{
+    position: absolute;
+    top: 60px;
+    left: 540px;
+    background-color: #fff;
+    margin: auto;
+    width: 250px;
+    padding: 16px;
+    box-shadow: 20px 20px 20px 10px;
+    border-radius: 10px;
+}
+.form-container h2{
+    text-align: center;
+    color: rgb(53, 226, 226);
+    font-size: 18px;
+    background:whitesmoke;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type=email],
+input[type=cpassword]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background-color: whitesmoke;
+    text-align: 3px;
+    color: rgb(114, 192, 211);
+
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type=email]:focus,
+input[type=cpassword]:focus{
+    background-color: wheat;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-weight: bold;
+}
+#register{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.8;
+}
+#register:hover{
+    opacity: 1;
+}
+
+.login-form{
+    width: 210px;
+    height:380px;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.login-form h2{
+    width: 150px;
+    text-align: center;
+    color: teal;
+    font-size: 18px;
+    background:whitesmoke;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 5px;
+
+}
+#btn{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    opacity: 0.8;
+}
+#btn:hover{
+    opacity: 1;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.link a{
+    text-decoration: none;
+    color: teal;
+}

@@ -1,0 +1,27 @@
+.quote{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: inline;
+    width: 5px;
+    padding: 15px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    margin: 10px;
+    line-height: 1.5;
+}
+.m{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 20px;
+    padding: 15px;
+
+}
+.m h4{
+    margin-left: 50px;
+    font-weight: 400px;
+}

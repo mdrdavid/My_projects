@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: whitesmoke;
+        background-position: cover;
+        background-repeat: no-repeat
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: teal;
+        overflow: hidden;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%
+    }
+    .nav-links li{
+        list-style: none;
+    }
+    .heading{
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 20px;
+    }
+    .nav-links a{
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 3px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 14px 16px;
+        text-transform: uppercase;
+    }
+    .nav-links li a:hover:not(.active){
+        background-color: lightseagreen;
+    }
+    .nav-links li a.active{
+        background-color: rgb(156, 216, 213);
+    }
+    .contact area{
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+       
+    }
+    .contact-us{
+        background-image: url(../macbookaad.jpeg);
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat:repeat;
+        background-position-x: auto;
+        background-size: auto;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+        width:100vw;
+        height:200px;
+        padding: 10px;
+    }
+    .contact-us h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: rgb(65, 45, 45);
+    }
+    .contact-info{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: #fff;
+    margin-top: 100px;
+    width: 500px;
+    padding: 16px;
+    border-radius: 10px;
+
+    }
+    input[type="text"],
+input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid green;
+    background-color: white;
+    text-align: 3px;
+    color: rgb(114, 192, 211);
+
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type=email]:focus,
+input[type=cpassword]:focus{
+    background-color: wheat;
+    outline: none;
+}
+.contacts{
+    float: right;
+    margin-top: 150px;
+    margin-right: 60px;
+    padding: 25px;
+}
+.selections{
+    display: flex;
+    flex-direction: column;
+}
+.selections label{
+    padding-bottom:10px;
+}
+.selections select{
+    height: 40px;
+    border: 1px solid green;
+}
+#textarea{
+    width:100%;
+    height: 100px;
+    border: 1px solid green;
+}
+#button{
+    width: 100px;
+    color: #fff;
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.8;
+}
+#button:hover{
+    opacity: 1;
+}
+.subscription{
+    margin: 10px;
+    padding:5px;
+    line-height:1.5;
+}
