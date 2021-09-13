@@ -26,11 +26,11 @@
             <h1>contact us</h1>
         </div>
         <div class="contact-info">
-            <form class="my-fprm" action="">
-                <label for="f-name">First Name</label>
-                <input type="text" name="f-name">
-                <label for="l-name">Last Name</label>
-                <input type="text" name="l-name">
+            <form name= "contactForm"class="my-form" action="about.html" onsubmit="return validateForm()">
+                <label for="f_name">First Name</label>
+                <input type="text" name="f_name">
+                <label for="l_name">Last Name</label>
+                <input type="text" name="l_name">
                 <label for="company">Company</label>
                 <input type="text" name="company">
                 <label for="industry">Industry</label>
@@ -61,13 +61,13 @@
                     <option value="marketing">Marketing</option>
                 </select>
                 </div>
-                <label for="phone-number">Phone number</label>
-                <input type="text" name="phone-number">
+                <label for="phone_number">Phone number</label>
+                <input type="text" name="phone_number">
                 <label for="email">Email address</label>
                 <input type="text" name="email">
                 <label for="city">City</label>
                 <input type="text" name="city">
-                <textarea name="" id="textarea" cols="30" rows="10">What can NCR help you with today?</textarea>
+                <textarea name="" id="textarea" cols="30" rows="10" placeholder="What can NCR help you with today?"></textarea>
                 <div class="subscription">
                 <input type="checkbox" id="check" name="check" value="click">
                 <p>Click here to subscribe to NCR updates</p>
@@ -82,5 +82,6 @@
         </div>
         </div>
     </div>
+    <script type="text/javascript" src="scripts/contact.js"></script>
 </body>
 </html>

@@ -147,3 +147,13 @@ input[type=cpassword]:focus{
     padding:5px;
     line-height:1.5;
 }
+.footer{
+    position: absolute;
+    top: 600px;
+    background-color: teal;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    font-family: Arial;
+    color: #000;
+}

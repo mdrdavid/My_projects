@@ -4,24 +4,25 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    background-image: url(../office\,bg2.jpeg);
+    background-color: whitesmoke;
+    background-image: url(../offices\,bg2.jpeg);
     background-position: cover;
     background-repeat: no-repeat
 }
 .body-text{
     position:absolute;
-    top: 10px;
+    top: 20px;
     left: 10px;
     margin-top: 20px; 
     margin-bottom: 20px;
-    color: rgb(248, 244, 242);
+    color: #000;
     word-spacing: 5px;
     letter-spacing: 3px;
     padding: 25px;
 }
 .body-text p{
-    margin-top: 50px;
-    font-size: 14px;
+    margin-top: 60px;
+    font-size: 16px;
     font-family: Tahoma;
     word-spacing: 3px;
     float: left;
@@ -49,6 +50,9 @@ nav{
     letter-spacing: 4px;
     font-size: 20px;
 }
+.heading h4{
+    text-align: center;
+}
 .nav-links a{
     text-decoration: none;
     color: #fff;
@@ -66,13 +70,13 @@ nav{
 }
 .form-container{
     position: absolute;
-    top: 60px;
-    left: 540px;
+    top: 80px;
+    left: 760px;
     background-color: #fff;
     margin: auto;
-    width: 250px;
+    width: 280px;
     padding: 16px;
-    box-shadow: 20px 20px 20px 10px;
+    box-shadow: 2px 2px 2px 1px;
     border-radius: 10px;
 }
 .form-container h2{
@@ -123,17 +127,6 @@ input[type=cpassword]:focus{
     opacity: 1;
 }
 
-.login-form{
-    width: 210px;
-    height:380px;
-    background: white;
-    position: absolute;
-    top: 60px;
-    right: 50px;
-    padding: 25px;
-    border-radius: 10px;
-
-}
 .login-form h2{
     width: 150px;
     text-align: center;
@@ -152,7 +145,8 @@ input[type=cpassword]:focus{
     cursor: pointer;
     width: 80%;
     border-radius: 5px;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
     opacity: 0.8;
 }
 #btn:hover{
@@ -168,4 +162,16 @@ input[type=cpassword]:focus{
 .link a{
     text-decoration: none;
     color: teal;
+}
+.footer{
+    position: absolute;
+    top: 670px;
+    background-color: teal;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    color: #000;
 }

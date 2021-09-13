@@ -24,30 +24,32 @@
             </nav>
         <div class="body-text">
         <h1>Simple, made possible™</h1>
-        <p>From small cafes to the most sophisticated banks <br>and retailers on the planet, <br> powers the technology <br>that integrates everything—and runs<br> your entire operation.</p>
+        <p>From small cafes to the most sophisticated banks and retailers <br> on the planet, powers the technology <br>that integrates everything—and runs<br> your entire operation.</p>
     </div>
         <div class="form-container">
             
-            <form action="">
+            <form name= "myForm" action="service.html"onsubmit="return validateForm()" method="">
                 <h2>Register</h2>
             <p>Please fill in this form to register with us</p>
             <hr>
             <label for="fname">First Name</label>
-                <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+                <input type="text" placeholder="Enter First Name" name="fname" id="fname" >
                 <label for="lname">Last Name</label>
                 <input type="text" placeholder="Enter Last Name" name="lname" id="lname">
                 <label for="email">E-mail address</label>
-                <input type="text" placeholder="Enter E-mail address " name="email" id="email" required> 
+                <input type="text" placeholder="Enter E-mail address " name="email" id="email" > 
                 <label for="password">Password</label>
-                <input type="password" placeholder="Enter Your Password" name="password" id="password" required>
+                <input type="password" placeholder="Enter Your Password" name="password" id="password" >
                 <label for="cpassword">Confirm Password</label>
-                <input type="password" placeholder="Confirm Your Password" name="cpassword" id="cpassword" required>
+                <input type="password" placeholder="Confirm Your Password" name="cpassword" id="cpassword" >
                 <hr>
                 <button type="submit" id="register">Register</button>
             </form>
             <p class="link"> Already have an account<br>
             <a href="#">Login here</a></p>
         </div>
+        <div class="footer"><footer>Copyright reserved for &copy NCR Computer Sysyems</footer></div>
     </div>
+    <script type=" text/javascript" src="scripts/index.js"></script>
 </body>
 </html>
