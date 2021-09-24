@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: whitesmoke;
+    background: -webkit-linear-gradient(to right bottom, #f2f1f6, #ccc);
+    background: -moz-linear-gradient(to right bottom,#f1f1f1, #ccc);
+    background: linear-gradient(#8b8888, #cccecc);
+    min-height: 100vh;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: palevioletred;
+    width: 100%;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 30px;
+    margin-left: 600px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 20px;
+}
+.navbar .logo{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 500;
+    
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+form{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 30px;
+    padding: 30px;
+    background: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 5PX;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ccc;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: black;
+}
+form div{
+    position: relative;
+    margin-bottom: 15px;
+}
+form div input{
+    width: 100%;
+    padding: 10px 30px;
+    margin: 10px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border: 2px solid #f2796e;
+  }
+form button{
+    background: rgb(190, 174, 174);
+    color: inherit;
+    font-family: initial;
+    font-size: 20px;
+    font-weight:500;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px ;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+form button:hover{
+    background-color: rgb(238, 192, 192);
+    opacity: 0.8;
+}
+form div i {
+    position: absolute;
+    padding: 10px;
+  }
+.failure-icon,
+.error {
+  color: red;
+}
+
+.success-icon {
+  color: green;
+}
+
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+
+/* Hide the success and error icons */
+.success-icon,
+.failure-icon {
+  right: 0;
+  opacity: 0;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <div>
+        <nav class="navbar">
+            <div class="logo"> MDR Tech company</div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="form-control">
+        <form action="" id="form">
+            <div class="title">Login Here</div>
+            <div>
+                <label for="username">Username</label>
+                <i class="fas fa-user"></i>
+               <input type="text" id ="username" placeholder="David">  
+               <i class="fas fa-exclamation-circle failure-icon"></i>
+    <i class="far fa-check-circle success-icon"></i>
+    <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+               <input type="text" id ="email" placeholder="kcharles20@gmail.com"> 
+               <i class="fas fa-exclamation-circle failure-icon"></i>
+    <i class="far fa-check-circle success-icon"></i>
+    <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+               <input type="text" id ="password" placeholder="Password"> 
+               <i class="fas fa-exclamation-circle failure-icon"></i>
+    <i class="far fa-check-circle success-icon"></i>
+    <div class="error"></div>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+    <script type="text/javascript" scr ="main.js"></script>
+</body>
+</html>
