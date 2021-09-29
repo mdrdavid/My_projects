@@ -1,0 +1,40 @@
+<html>
+    <head></head>
+    <body>
+        <button id = "button_A">press me</button>
+        <h1 id="heading_B"></h1>
+        
+        <button>Start machine</button>
+        <p>the machine is stoped</p>
+
+        <script>
+           const buttonA = document.querySelector('#button_A');
+           const headingB = document.querySelector('#heading_B');
+
+           buttonA.onClick = function() {
+               let name = prompt('What is your name');
+               alert(`Hello ${name}, nice to meet you!`);
+               headingB.textContent = `Welcome ${name}`;
+           }
+        </script>
+
+        <script>
+            const btn = document.querySelector('button');
+            const txt = document.querySelector('p');
+
+            btn.addEventListener('click', updateButton)
+
+            function updateButton(){
+                if(btn.textContent=== 'Start Machine'){
+                    btn.textContent = 'Stop Machine';
+                    txt.textContent = 'The machine is stopped';
+
+                }
+                else{
+                    btn.textContent= 'Start Machine'
+                    txt.textContent ='The machine is started'
+                }
+            }
+        </script>
+    </body>
+    </html>

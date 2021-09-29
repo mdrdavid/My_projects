@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+  display: flex;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background: whitesmoke;
@@ -120,7 +121,7 @@ form button:hover{
 form div i {
     position: absolute;
     padding: 10px;
-  }
+  } 
 .failure-icon,
 .error {
   color: red;
@@ -141,3 +142,33 @@ form div i {
   right: 0;
   opacity: 0;
 }
+
+@media screen and (max-width: 720px) {
+    body {
+      flex-direction: column;
+    }
+    .navbar ul{
+      flex-direction: column;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .btn {
+      flex-direction: column;
+    }
+    /*.image {
+      height: 70vh;
+    }*/
+  }
+
+  @media (max-width: 425px) {
+    form {
+      padding: 20px;
+    }
+  }
+
+  .form-i {
+    color:rgba(0, 0, 0, 0.1);
+  }
